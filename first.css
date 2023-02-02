@@ -1,0 +1,41 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #16181d; /* Declaring a variable */
+  --center: 1196px;
+}
+
+/* Modular css */
+
+/* Uitilities */
+.center {
+  max-width: var(--center);
+  margin-inline: auto;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+nav {
+  background-color: green;
+  padding: 15px;
+}
+
+.nav-container{
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  background-color: white;
+}
