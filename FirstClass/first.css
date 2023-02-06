@@ -11,8 +11,6 @@
   --center: 1196px;
 }
 
-/* Modular css */
-
 /* Uitilities */
 .center {
   max-width: var(--center);
