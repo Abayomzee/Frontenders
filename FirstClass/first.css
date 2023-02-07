@@ -24,7 +24,7 @@
 
 .page-body {
   background-color: var(--bg-color);
-  background-image: url('./bg-image.png');
+  background-image: url("./bg-image.png");
   background-repeat: no-repeat;
   background-size: 675px 790px;
 }
@@ -45,10 +45,19 @@
 }
 
 .nav-link-item {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
   text-decoration: none;
 }
+
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header-descriptions{}
+
+.header-image{}
